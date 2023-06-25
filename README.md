@@ -1,0 +1,2 @@
+# Repocitorio-Tarea
+MÉTODOS DE ENVIÓ DE INFORMACIÓN GET y POST
