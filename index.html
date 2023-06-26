@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Formulario de contacto</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <video autoplay loop muted id="video-bg">
+        <source src="video.mp4" type="video/mp4">
+      </video>>      
+  <div class="container">
+    <h1>Formulario de contacto</h1>
+    <p>Escribenos y en breve los pondremos en contacto contigo</p>
+    <form action="datos.php" method="POST">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="" name="nombre" placeholder="Escríbe tu nombre" ><br><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="" name="email" placeholder="Escríbe tu Email"><br><br>
+        
+        <label for="telefono">Telefono</label><br>
+        <input type="tel" id="" name="telefono" placeholder="Escríbe tu telefono"><br><br>
+        
+        <label for="sitio_web">Sitio web</label><br>
+        <input type="text" id="" name="sitio_web" placeholder="Escribe la URL de tu web"><br><br>
+        
+        <label for="asunto">Asunto</label><br>
+        <input type="text" id="" name="asunto" placeholder="Escríbe un asunto" ><br><br>
+        
+        <label for="mensaje">Mensaje</label><br>
+        <textarea id="" name="mensaje" placeholder="Deja aquí tu comentario..."></textarea><br><br>
+        
+        <input type="submit" value="ENVIAR">
+      </form>      
+  </div>
+</body>
+</html>
